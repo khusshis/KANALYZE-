@@ -96,8 +96,8 @@ function App() {
       <nav className="fixed top-0 w-full z-50 glass-panel border-b-0 border-b-white/5 bg-neural-900/90 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={reset}>
-            <img src="/favicon.svg" alt="K-ANALYZE" className="w-8 h-8 hover:scale-110 transition-transform duration-300" />
-            <span className="text-xl font-bold tracking-tight text-white">K-ANALYZE</span>
+            <img src="/Logo.png" alt="K-ANALYZE" className="w-8 h-8 rounded hover:scale-110 transition-transform duration-300" />
+            <span className="text-xl font-bold tracking-tight text-white">KANALYZE</span>
           </div>
           
           {/* Desktop Navigation */}
@@ -316,8 +316,8 @@ function App() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-12 text-center text-gray-500 text-sm">
-        <p>&copy; 2025 K-ANALYZE. All rights reserved.</p>
-        <p className="mt-2 text-xs">K-ANALYZE</p>
+        <p>&copy; 2025 KANALYZE. All rights reserved.</p>
+        <p className="mt-2 text-xs">Powered by Gemini 2.5 Flash • Privacy First Architecture</p>
       </footer>
     </div>
   );
