@@ -1,0 +1,2 @@
+# KANALYZE-
+AI detector
