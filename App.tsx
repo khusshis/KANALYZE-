@@ -96,7 +96,7 @@ function App() {
       <nav className="fixed top-0 w-full z-50 glass-panel border-b-0 border-b-white/5 bg-neural-900/90 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={reset}>
-            {/* <img src="/Logo.png" alt="K-ANALYZE" className="w-8 h-8 rounded hover:scale-110 transition-transform duration-300" /> */}
+            {<img src="/Logo.png" alt="K-ANALYZE" className="w-8 h-8 rounded hover:scale-110 transition-transform duration-300" /> }
             <span className="text-xl font-bold tracking-tight text-white">KANALYZE</span>
           </div>
           
